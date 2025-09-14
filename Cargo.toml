@@ -1,0 +1,19 @@
+[package]
+name = "ashenc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4.5", features = ["derive"] }
+aead = "0.5"
+aes-gcm = "0.10"
+aes-kw = "0.2"
+pbkdf2 = "0.12"
+hmac = "0.12"
+sha2 = "0.10"
+getrandom = "0.2"
+zeroize = "1.7"
+byteorder = "1.5"
+base64 = "0.22"
+
